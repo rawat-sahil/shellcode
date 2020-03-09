@@ -14,7 +14,8 @@ void main(){
 			xor %rdi, %rdi\n\
 			syscall\n\
 	there:	call here\n\
-	.string \"hello world!\"\n\
+	message:\n\
+	.string \"Hello World!\"\n\
 	needle1: .octa 0xdeadbeef\n\
 	");	
 
