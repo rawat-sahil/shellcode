@@ -6,7 +6,7 @@ void main(){
 			pop %rax\n\
 			push $0x1\n\
 			pop %rdi\n\
-			push $0xd\n\
+			push $0xc\n\
 			pop %rdx\n\
 			syscall\n\
 			push $0x3c\n\
